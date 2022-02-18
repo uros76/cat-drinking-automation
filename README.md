@@ -35,4 +35,7 @@ In case you want to monitor the system here are **[Homeassistant settings](/conf
 - Switch ON movement OFF: power to the IR sensor is cut by main switch, main relay is turned off
 - Switch ON movement ON: power to the IR sensor is cut by main switch, main relay is turned on > time for drinking > main relay is turned off > sensing stopped to avoid repetitive motion detection
 
+There are more pictures of implemenation on my **[Reddit post](https://www.reddit.com/r/homeautomation/comments/sulvk6/cat_drinking_automation_project/)**.
+
 Basic schematics showing all parts used: 
+![ ](/schematics.png)

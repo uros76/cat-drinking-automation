@@ -9,8 +9,7 @@ I am usiang Homeassistant platform for my smart home control so I connected the 
 
 These are the **parts used**. 
 Here is a work in progress **[Python script](https://github.com/uros76/cat-drinking-automation/blob/main/automation.py)** that drives the logic for certain scenarios. 
-Here are Homeassistant settings, you need to enter these in configuration.yaml file. 
-
+Here are **[Homeassistant settings](https://github.com/uros76/cat-drinking-automation/blob/main/configuration.yaml)**, you need to enter these in configuration.yaml file. 
 
 **Scenarios explanation**
 Switch OFF: power to the IR sensor is cut by main switch, main and switch light relays are turned off, x variable is turned on

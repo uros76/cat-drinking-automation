@@ -1,0 +1,21 @@
+binary_sensor:
+  - platform: remote_rpi_gpio
+    host: rPi_IP_ADRESS #make sure to change this to your rPi IP adress
+    invert_logic: false
+    ports:
+      2: Water Relay
+
+  - platform: remote_rpi_gpio
+    host: rPi_IP_ADRESS #make sure to change this to your rPi IP adress
+    invert_logic: true
+    ports:
+      18: Stop Switch
+
+sensor:
+  - platform: history_stats
+    name: Cat drinks today
+    entity_id: binary_sensor.water_relay
+    state: "on"
+    type: count
+    start: "{{ now().replace(hour=0, minute=0, second=0) }}"
+    end: "{{ now() }}"

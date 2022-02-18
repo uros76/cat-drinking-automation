@@ -1,4 +1,4 @@
-# cat-drinking-automation
+# Cat drinking automation project
 
 This is my project of automatic tap water dispenser for our beloved bengal breed cat. These cats are very picky when it comes to water consumption. They jump on sinks and open the faucet just to get access to fresh tap water. Obviously this is not something I want to see once we are out of the home. 
 

@@ -11,7 +11,7 @@ I am usiang Homeassistant platform for my smart home control so I connected the 
 - IR sensor: SR505
 - 2x Relay module (5V in, LOW trigger): KY-019
 - rPi Zero W
-- Level Shifter module 
+- Level Shifter module[^1] 
 - Switch with 12V LED ring 
 - Short LED strip 12V
 - Power Socket splitter
@@ -22,7 +22,7 @@ I am usiang Homeassistant platform for my smart home control so I connected the 
 - 2x Angled tubing elbow: John Guest PI0308S
 - 2meters 1/4" tube: John Guest PE-08-BI-0500F
 
-The relay module had difficulty with 3.3V input from GPIO pin. I found **[this article](https://www.raspberrypi-spy.co.uk/2018/09/using-a-level-shifter-with-the-raspberry-pi-gpio/)** that gave me idea to use the level switcher module. 
+[^1] The relay module had difficulty with 3.3V input from GPIO pin. I found **[this article](https://www.raspberrypi-spy.co.uk/2018/09/using-a-level-shifter-with-the-raspberry-pi-gpio/)** that gave me idea to use the level switcher module. 
 
 Here is a work in progress **[Python script](/automation.py)** that drives the logic for scenarios explained below. 
 

@@ -24,7 +24,7 @@ I am usiang Homeassistant platform for my smart home control so I connected the 
 
 Here is a work in progress **[Python script](https://github.com/uros76/cat-drinking-automation/blob/main/automation.py)** that drives the logic for scenarios explained below. 
 
-Here are **[Homeassistant settings](https://github.com/uros76/cat-drinking-automation/blob/main/configuration.yaml)**, you need to enter these in configuration.yaml file. 
+In case you want to monitor the system here are **[Homeassistant settings](https://github.com/uros76/cat-drinking-automation/blob/main/configuration.yaml)**, you need to enter these in configuration.yaml file. 
 
 **Scenarios explanation:**
 

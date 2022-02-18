@@ -8,8 +8,9 @@ With this project, I wanted to create a safe and flexible system that allows aut
 I am usiang Homeassistant platform for my smart home control so I connected the GPIO pins usage for monitoring purposes. 
 
 These are the **parts used**. 
-Here is a work in progress **Python script** that drives the logic for certain scenarios.
+Here is a work in progress **[Python script](https://github.com/uros76/cat-drinking-automation/blob/main/automation.py)** that drives the logic for certain scenarios. 
 Here are Homeassistant settings, you need to enter these in configuration.yaml file. 
+
 
 **Scenarios explanation**
 Switch OFF: power to the IR sensor is cut by main switch, main and switch light relays are turned off, x variable is turned on
